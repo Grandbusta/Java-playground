@@ -10,19 +10,22 @@ public class App {
         user.setFirstName("Killer");
         System.out.println(user.getFirstName());
         
-    
-    //     System.out.println(user.getFullName());
-    //     int[] grades=new int[10];
-    //     System.out.println(grades);
-    //     List<Integer> grada=new ArrayList<Integer>();
-    //     grada.add(5);
-    //     grada.add(10);
-    //     grada.add(1,7);
-    //     System.out.println(grada);
-    //     List<Integer> gre=Arrays.asList(1,2,3,4,5);
-    //     System.out.println(gre);
-    //     for (int i = 0; i < gre.size(); i++) {
-    //         System.out.println(gre.get(i));
-    //     }
+        List<User> users=new ArrayList<User>();
+        users.add(user);
+        System.out.println(users.get(0).name);
+        
+        // System.out.println(user.getFullName());
+        // int[] grades=new int[10];
+        // System.out.println(grades);
+        // List<Integer> grada=new ArrayList<Integer>();
+        // grada.add(5);
+        // grada.add(10);
+        // grada.add(1,7);
+        // System.out.println(grada);
+        // List<Integer> gre=Arrays.asList(1,2,3,4,5);
+        // System.out.println(gre);
+        // for (int i = 0; i < gre.size(); i++) {
+        //     System.out.println(gre.get(i));
+        // }
     }
 }
